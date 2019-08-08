@@ -10,7 +10,7 @@ option(MINISAT_TEST_BENCHMARKS "Register benchmarks with CTest" OFF)
 
 include(GNUInstallDirs)
 
-add_library(libminisat STATIC
+add_library(libminisat #STATIC
     # Impl files
     minisat/core/Solver.cc
     minisat/core/SolverTypes.cc
